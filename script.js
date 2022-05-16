@@ -1,0 +1,26 @@
+import { strictEqual } from './strictEqual.js';
+
+let a = 1;
+let b = 1;
+console.log(strictEqual(a, b));
+a = NaN;
+b = NaN;
+console.log(strictEqual(a, b));
+a = 0;
+b = -0;
+console.log(strictEqual(a, b));
+a = -0;
+b = 0;
+console.log(strictEqual(a, b));
+a = 1;
+b = '1';
+console.log(strictEqual(a, b));
+a = true;
+b = false;
+console.log(strictEqual(a, b));
+a = false;
+b = false;
+console.log(strictEqual(a, b));
+a = 'water';
+b = 'oil';
+console.log(strictEqual(a, b));
