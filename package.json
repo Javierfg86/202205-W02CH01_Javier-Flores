@@ -1,0 +1,30 @@
+{
+    "name": "202205-w02ch01_javier-flores",
+    "version": "1.0.0",
+    "description": "Crear función Strict Equal",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Javierfg86/202205-W02CH01_Javier-Flores.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Javierfg86/202205-W02CH01_Javier-Flores/issues"
+    },
+    "homepage": "https://github.com/Javierfg86/202205-W02CH01_Javier-Flores#readme",
+    "prettier": {
+        "singleQuote": true
+    },
+    "devDependencies": {
+        "eslint": "^8.15.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}
