@@ -1,5 +1,5 @@
 export function strictEqual(a, b) {
-    if (isNaN(a, b)) {
+    if (Number.isNaN(a, b)) {
         return false;
     } else if (!Number.isNaN(a, b)) {
         if (!a && !b) {
