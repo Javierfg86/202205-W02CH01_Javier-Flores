@@ -22,5 +22,5 @@ a = false;
 b = false;
 console.log(strictEqual(a, b));
 a = 'water';
-b = 'oil';
+b = 'water';
 console.log(strictEqual(a, b));
